@@ -44,7 +44,7 @@ export default {
                 <div class="player-container">
                     <div class="player">
                         <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
-                        <p v-if="entry.user === 'Sdrawkcab'" class="CC1-winner">Owner</p>
+                        <p v-if="entry.user === 'Sdrawkcab'" class="CCWinner1-text">Owner</p>
                         <h3>{{ entry.total }}</h3>
 
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
